@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+    
+  
+</head>
+<body>
+     <table>
+        <form action="">
+        <tr>
+            <th>Controol Type</th>
+            <th>Data</th>
+            <th style="width: 60%;">Control</th>
+        </tr>
+        <tr>
+            <td>Text box</td>
+            <td>Name:</td>
+            <td>
+
+                    <input type="text" placeholder="Enter name">
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>Password:</td>
+            <td>
+                    <input type="password" name="password"/>
+            </td>
+        </tr>
+        <tr>
+            <td>Text area</td>
+            <td>Address:</td>
+            <td>
+                    <textarea name="message" cols="19" rows="4"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Drop down list</td>
+            <td>Area:</td>
+            <td>
+                    <select name="city" >
+                        <option value="center">center</option>
+                        <option value="left">left</option>
+                        <option value="right">right</option>
+
+                    </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Check box</td>
+            <td>Hobbies:</td>
+            <td>
+                    <input type="checkbox" name="hobbies1" value="sport"> Sprot <br>
+                    <input type="checkbox" name="hobbies2" value="reading"> reading <br>
+                    <input type="checkbox" name="hobbies3" value="TV"> T.V. <br>
+                    <input type="checkbox" name="hobbies4" value="Internet"> Internet <br>
+            </td>
+        </tr>
+        <tr>
+            <td>Radio buttons</td>
+            <td>Gender:</td>
+            <td>
+                    <fieldset>
+                        <legend> Gender Selection</legend>
+                        <input type="radio" name="gender" value="male"> Male <br>
+                        <input type="radio" name="gender" value="female"> Female
+                    </fieldset>
+            </td>
+        </tr>
+        <tr>
+            <td>File upload</td>
+            <td>Your image:</td>
+            <td>
+                    <label for="files"></label>
+                    <input type="file" multiple>
+            </td>
+        </tr>
+        <tr>
+            <td>Buttons</td>
+            <td>Actions:</td>
+            <td>
+                    <input type="submit"/>
+                    <input type="reset"/>
+                    <input type="button" value="button"/>
+            </td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
